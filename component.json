@@ -1,11 +1,11 @@
 {
-	"name": "app.ui.component",
-	"version": "0.1.0",
-	"description": "APP UI: Component",
+	"name": "x-md",
+	"version": "0.0.0",
+	"description": "Custom element for Markdown parsing",
 	"license": "MIT",
 	"main": "index.html",
 	"keywords": [
-			"app-ui", "web-components"
+			"md", "parser", "markdown", "web-components"
 	],
 	"ignore": [
 			"**/.*",
@@ -14,6 +14,6 @@
 	],
 	"dependencies": {
 		"webcomponentsjs": "*",
-		"app" : "*"
+		"showdown" : "*"
 	}
 }
