@@ -11,7 +11,8 @@
 		// ...
 		options.el = el;
 		// instantiate view
-		view = new APP.UI.Component( options );
+		var compiler = (new Showdown.converter()).makeHtml;
+		//view = compiler( el.content );
 
 	};
 
@@ -26,7 +27,7 @@
 	// Fires when an attribute was added, removed, or updated
 	el.attributeChangedCallback = function(attr, oldVal, newVal) {};
 
-	document.registerElement('ui-component', {
+	document.registerElement('x-md', {
 		prototype: el
 	});
 }());
