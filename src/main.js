@@ -12,8 +12,12 @@
 		options.el = el;
 		// instantiate view
 		var compiler = (new Showdown.converter()).makeHtml;
-		//view = compiler( el.content );
-
+		var md = this.innerHTML;
+		// compile markdown
+		var html = compiler( md );
+		// output on the page
+		console.log(html);
+		this.innerHTML = html;
 	};
 
 	// Fires when an instance was inserted into the document
