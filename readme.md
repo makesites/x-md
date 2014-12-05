@@ -12,7 +12,7 @@ Custom elemet to parse Markdown text.
 
 Using bower:
 ```
-bower install x-md
+bower install md
 ```
 
 
@@ -26,7 +26,7 @@ bower install x-md
 
 2. Import Custom Element:
 ```html
-<link rel="import" href="bower_components/x-md">
+<link rel="import" href="bower_components/md">
 ```
 
 3. Start using it!

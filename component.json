@@ -1,5 +1,5 @@
 {
-	"name": "x-md",
+	"name": "md",
 	"version": "0.1.0",
 	"description": "Custom element for Markdown parsing",
 	"license": "MIT",
