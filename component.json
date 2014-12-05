@@ -1,6 +1,6 @@
 {
 	"name": "x-md",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Custom element for Markdown parsing",
 	"license": "MIT",
 	"main": "index.html",
